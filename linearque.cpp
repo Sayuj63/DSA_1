@@ -74,6 +74,7 @@ int del(int que[])
             front=rear=-1;
         }
         return val;
+
     }
 }
 void display(int que[])
@@ -97,3 +98,5 @@ int peek(int que[])
     else
         return (que[front]);
 }
+
+ 
